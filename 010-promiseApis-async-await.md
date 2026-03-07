@@ -178,7 +178,7 @@ graph TD
     A[Promise.any] --> B[p1: 3s Success]
     A --> C[p2: 5s Success]
     A --> D[p3: 2s Fail]
-    C --> E["Result: p2 Value"]
+    B --> E["Result: p1 Value"]
 ```
 
 ### Example:
