@@ -76,3 +76,6 @@ This document summarizes the key concepts from our TypeScript module.
 - **`Omit<T, Keys>`**: Removes specific keys.
 - **`Pick<T, Keys>`**: Plucks specific keys.
 - **`Record<Key, Type>`**: Sets property keys to `Key` and values to `Type`.
+
+## Practical Task
+- [Week 6 Practical Task](https://github.com/rahulkhatwani78/js-in-depth/tree/master/015-week6-practicalTask)
