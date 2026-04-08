@@ -158,6 +158,12 @@ When a function is called with the `new` keyword, `this` refers to the newly cre
 
 ### 1. Why does `let a = 10; let a = 20;` throw an error, but `var a = 10; var a = 20;` does not?
 
+```javascript
+var a = 10;
+let b = 20;
+<img width="279" height="150" alt="image" src="https://github.com/user-attachments/assets/2d3a3f97-19d0-4124-aef4-2b818335548b" />
+```
+
 #### 1️⃣ Why `let` Throws a SyntaxError
 
 ```javascript
