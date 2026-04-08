@@ -118,7 +118,31 @@ In the global execution context (outside of any function), `this` refers to the 
 
 - **Regular Functions:** In a regular function call, `this` refers to the global object (in non-strict mode) or `undefined` (in strict mode).
 - **Object Methods:** When a function is called as a method of an object, `this` refers to the object itself.
+```javascript
+const obj = {
+    name: "Rahul",
+    func() {
+        console.log(this.name);
+    }
+};
+var name = "Aman";
+obj.func();
+
+// Output: Rahul
+```
 - **Arrow Functions:** Arrow functions do **not** have their own `this`. They inherit `this` from the lexical scope (the enclosing context).
+```javascript
+const obj = {
+    name: "Rahul",
+    func: () => {
+        console.log(this.name);
+    }
+};
+var name = "Aman";
+obj.func();
+
+// Output: Aman
+```
 
 ### 3. Constructor Calls (`new` keyword)
 
