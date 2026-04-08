@@ -161,8 +161,8 @@ When a function is called with the `new` keyword, `this` refers to the newly cre
 ```javascript
 var a = 10;
 let b = 20;
-![Declarations Location](resources/declaration-location.png)
 ```
+![Declarations Location](resources/declaration-location.png)
 
 #### 1️⃣ Why `let` Throws a SyntaxError
 
