@@ -30,6 +30,11 @@ This is a high-priority queue. The Event Loop checks the Microtask Queue **immed
 - **Examples**: `Promise` callbacks (`.then`, `.catch`, `.finally`), `MutationObserver`.
 
 ![JS Event Loop](resources/js-event-loop.gif)
+![JS Event Loop-2](resources/js-event-loop-2.gif)
+![JS Event Loop-3](resources/js-event-loop-3.gif)
+![JS Event Loop-4](resources/js-event-loop-4.gif)
+![JS Event Loop-5](resources/js-event-loop-5.gif)
+![JS Event Loop-6](resources/js-event-loop-6.gif)
 
 ### Working of the Event Loop
 
