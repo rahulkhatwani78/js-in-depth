@@ -29,6 +29,8 @@ This is a high-priority queue. The Event Loop checks the Microtask Queue **immed
 
 - **Examples**: `Promise` callbacks (`.then`, `.catch`, `.finally`), `MutationObserver`.
 
+![JS Event Loop](resources/js-event-loop.gif)
+
 ### Working of the Event Loop
 
 1.  **Execute Synchronous Code**: All code in the script runs line by line and is pushed onto the **Call Stack**.
@@ -150,7 +152,7 @@ graph TD
 | Accessor                     | Property Type        | Use Case                                        |
 | :--------------------------- | :------------------- | :---------------------------------------------- |
 | `Object.prototype`           | Static Property      | The final blueprint for all JS objects.         |
-| `Func.prototype`             | Property on Function | Defines what properties instances will inherit. |
+| `Function.prototype`         | Property on Function | Defines what properties instances will inherit. |
 | `obj.__proto__`              | Reference/Dunder     | Shows the actual object being inherited from.   |
 | `Object.getPrototypeOf(obj)` | Method               | The modern, standard way to access `__proto__`. |
 
